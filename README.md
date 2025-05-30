@@ -20,11 +20,13 @@ Ce setup Terraform déploie une infrastructure Azure pour héberger un site web 
 
 ## Prérequis
 
-Terraform >= 1.0
+- Terraform >= 1.0
 
-Un abonnement Azure avec les droits nécessaires à la création de ressources
+- Un abonnement Azure avec les droits nécessaires à la création de ressources
 
-Azure CLI configuré et authentifié (pour terraform apply)
+- Azure CLI configuré et authentifié (pour terraform apply)
+
+## Variables
 
 | Variable               | Type                 | Description                                                    | Exemple                                                       |
 | ---------------------- | -------------------- | -------------------------------------------------------------- | ------------------------------------------------------------- |
@@ -48,6 +50,7 @@ Exemple de variable `blob_storage`
      content_type           = "text/html"
      source                 = "index.html"
      }
+
     "blob2" = {
      name                   = "404.html"
      storage_container_name = "$web"
@@ -57,7 +60,8 @@ Exemple de variable `blob_storage`
     }
     }
 
-Utilisation
+## Utilisation
+
 Cloner ce dépôt
 
 git clone <URL>
@@ -69,7 +73,7 @@ terraform init
 
 Vérifier la planification
 
-terraform plan -var-file="variables.tfvars"
+terraform plan 
 
 Remarques
 Le nom du Storage Account est en minuscules, sans caractères spéciaux ni tirets, et doit être globalement unique.
