@@ -64,7 +64,7 @@ Exemple de variable `blob_storage`
 
 
      git clone (https://github.com/ISSA-AZTF/terraform-azdeploy-blob-static-website.git)
-     
+
      terraform init
      terraform plan 
      terraform apply
@@ -84,6 +84,10 @@ Exemple de variable `blob_storage`
 Une fois le déploiement terminé, le site statique est accessible via le **Primary Web Endpoint** du Storage Account. Ce lien est généré automatiquement et prend la forme suivante :
 
     https://mystorage201ayp0.z13.web.core.windows.net/
+
+Retrouvable via l'output suivante :     
+
+![Primary_endpoint_sortie](Pictures/Output_primary_endpoint.png)
       
 
 ## Destruction 
