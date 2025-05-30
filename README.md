@@ -77,6 +77,13 @@ Exemple de variable `blob_storage`
 
 - Les blobs sont automatiquement uploadés dans le container `$web` nécessaire pour l’hébergement statique.
 
+## Accès au site web
+
+Une fois le déploiement terminé, le site statique est accessible via le **Primary Web Endpoint** du Storage Account. Ce lien est généré automatiquement et prend la forme suivante :
+
+    https://mystorage201ayp0.z13.web.core.windows.net/
+      
+
 ## Destruction 
 
     terraform destroy
