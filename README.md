@@ -70,13 +70,18 @@ Exemple de variable `blob_storage`
 
 ## Remarques
 
-Le nom du Storage Account est en minuscules, sans caractères spéciaux ni tirets, et doit être globalement unique.
+- Le nom du Storage Account est en minuscules, sans caractères spéciaux ni tirets, et doit être globalement unique.
 
-Les fichiers .html doivent être présents dans le dossier local pour le chargement correct des blobs.
+- Les fichiers .html doivent être présents dans le dossier local pour le chargement correct des blobs.
 
-En cas de nom de Storage Account déjà pris, un suffixe aléatoire sera généré automatiquement.
+- En cas de nom de Storage Account déjà pris, un suffixe aléatoire sera généré automatiquement.
 
-Les blobs sont automatiquement uploadés dans le container $web nécessaire pour l’hébergement statique.
+- Les blobs sont automatiquement uploadés dans le container $web nécessaire pour l’hébergement statique.
 
-Auteur
-Ton Nom — LinkedIn | GitHub
+## Destruction 
+
+    terraform destroy
+
+## Auteur
+
+CHATTI ISSAM — LinkedIn | GitHub
