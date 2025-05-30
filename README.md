@@ -1,4 +1,4 @@
-# Terraform Azure Storage Static Website Deployment
+# Déploiement Azure Static Website avec Terraform
 
 Ce setup Terraform déploie une infrastructure Azure pour héberger un site web statique via un Storage Account avec activation de la fonctionnalité `Static Website`, ainsi que l’upload de blobs configurés.
 
@@ -38,8 +38,10 @@ Azure CLI configuré et authentifié (pour terraform apply)
 | `index_file`           | `string`             | Nom du fichier index (doit être `.html`)                       | `"index.html"`                                                |
 | `blob_storage`         | `map(object)`        | Dictionnaire des blobs à uploader                              | Voir ci-dessous                                               |
 
-blob_storage = {
-  "blob1" = {
+Exemple de variable `blob_storage`
+
+  blob_storage = {
+   "blob1" = {
     name                   = "index.html"
     storage_container_name = "$web"
     type                   = "Block"
