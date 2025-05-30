@@ -1,22 +1,25 @@
-Terraform Azure Storage Static Website Deployment
-Ce projet Terraform déploie une infrastructure Azure pour héberger un site web statique via un Storage Account avec activation de la fonctionnalité Static Website, ainsi que l’upload de blobs configurés.
+# Terraform Azure Storage Static Website Deployment
 
-Fonctionnalités
-Création d’un Resource Group Azure
+Ce setup Terraform déploie une infrastructure Azure pour héberger un site web statique via un Storage Account avec activation de la fonctionnalité `Static Website`, ainsi que l’upload de blobs configurés.
 
-Génération d’un nom de Storage Account unique en cas d’absence de nom explicite
+## Fonctionnalités
 
-Provisionnement d’un Storage Account Azure avec paramètres personnalisables (Tier, réplication)
+- Création d’un Resource Group Azure
 
-Activation du service Static Website sur le Storage Account
+- Génération d’un nom de Storage Account unique en cas d’absence de nom explicite
 
-Upload dynamique de fichiers blob dans le container $web pour héberger les fichiers du site
+- Provisionnement d’un Storage Account Azure avec paramètres personnalisables (Tier, réplication)
 
-Gestion flexible des tags pour l’ensemble des ressources
+- Activation du service Static Website sur le Storage Account
 
-Validation des variables d’input avec restrictions (ex : fichiers index et error doivent être des .html)
+- Upload dynamique de fichiers blob dans le container `$web` pour héberger les fichiers du site
 
-Prérequis
+- Gestion flexible des tags pour l’ensemble des ressources
+
+- Validation des variables d’input avec restrictions (ex : fichiers index et error doivent être des .html)
+
+## Prérequis
+
 Terraform >= 1.0
 
 Un abonnement Azure avec les droits nécessaires à la création de ressources
