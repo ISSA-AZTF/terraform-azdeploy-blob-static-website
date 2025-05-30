@@ -47,15 +47,15 @@ Exemple de variable `blob_storage`
      type                   = "Block"
      content_type           = "text/html"
      source                 = "index.html"
-   }
-   "blob2" = {
-    name                   = "404.html"
-    storage_container_name = "$web"
-    type                   = "Block"
-    content_type           = "text/html"
-    source                 = "404.html"
-  }
-  }
+     }
+    "blob2" = {
+     name                   = "404.html"
+     storage_container_name = "$web"
+     type                   = "Block"
+     content_type           = "text/html"
+     source                 = "404.html"
+    }
+    }
 
 Utilisation
 Cloner ce dépôt
