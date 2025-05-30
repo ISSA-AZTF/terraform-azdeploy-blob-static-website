@@ -75,7 +75,7 @@ Exemple de variable `blob_storage`
 
 - En cas de nom de Storage Account déjà pris, un suffixe aléatoire sera généré automatiquement.
 
-- Les blobs sont automatiquement uploadés dans le container $web nécessaire pour l’hébergement statique.
+- Les blobs sont automatiquement uploadés dans le container `$web` nécessaire pour l’hébergement statique.
 
 ## Destruction 
 
@@ -83,4 +83,4 @@ Exemple de variable `blob_storage`
 
 ## Auteur
 
-CHATTI ISSAM — [LinkedIn](www.linkedin.com/in/issam-chatti-172838123) | [GitHub](https://github.com/ISSA-AZTF)
+CHATTI ISSAM — [LinkedIn](https://www.linkedin.com/in/issam-chatti-172838123) | [GitHub](https://github.com/ISSA-AZTF)
