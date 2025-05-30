@@ -63,10 +63,10 @@ Exemple de variable `blob_storage`
 ## Déploiement
 
 
-   git clone [https://](https://github.com/ISSA-AZTF/terraform-azdeploy-blob-static-website.git)
-   cd web_static
-   terraform init
-   terraform plan 
+     git clone (https://github.com/ISSA-AZTF/terraform-azdeploy-blob-static-website.git)
+     cd web_static
+     terraform init
+     terraform plan 
 
 ## Remarques
 
