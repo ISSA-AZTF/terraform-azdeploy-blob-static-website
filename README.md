@@ -40,22 +40,22 @@ Azure CLI configuré et authentifié (pour terraform apply)
 
 Exemple de variable `blob_storage`
 
-  blob_storage = {
+   blob_storage = {
    "blob1" = {
     name                   = "index.html"
     storage_container_name = "$web"
     type                   = "Block"
     content_type           = "text/html"
     source                 = "index.html"
-  }
-  "blob2" = {
+   }
+   "blob2" = {
     name                   = "404.html"
     storage_container_name = "$web"
     type                   = "Block"
     content_type           = "text/html"
     source                 = "404.html"
   }
-}
+  }
 
 Utilisation
 Cloner ce dépôt
