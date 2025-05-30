@@ -60,22 +60,16 @@ Exemple de variable `blob_storage`
     }
     }
 
-## Utilisation
+## Déploiement
 
-Cloner ce dépôt
 
-git clone <URL>
-cd <repo>
+   git clone [https://](https://github.com/ISSA-AZTF/terraform-azdeploy-blob-static-website.git)
+   cd web_static
+   terraform init
+   terraform plan 
 
-Initialiser Terraform
+## Remarques
 
-terraform init
-
-Vérifier la planification
-
-terraform plan 
-
-Remarques
 Le nom du Storage Account est en minuscules, sans caractères spéciaux ni tirets, et doit être globalement unique.
 
 Les fichiers .html doivent être présents dans le dossier local pour le chargement correct des blobs.
