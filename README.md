@@ -40,9 +40,9 @@ Azure CLI configuré et authentifié (pour terraform apply)
 
 Exemple de variable `blob_storage`
 
-   blob_storage = {
+    blob_storage = {
 
-   "blob1" = {
+    "blob1" = {
 
     name                   = "index.html"
 
@@ -51,7 +51,7 @@ Exemple de variable `blob_storage`
     type                   = "Block"
 
     content_type           = "text/html"
-    
+
     source                 = "index.html"
    }
    "blob2" = {
