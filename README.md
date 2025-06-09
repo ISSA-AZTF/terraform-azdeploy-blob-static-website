@@ -42,7 +42,7 @@ Ce setup Terraform déploie une infrastructure Azure pour héberger un site web 
 
 Exemple de variable `blob_storage`
 
- ```HCL
+  ```HCL
     blob_storage = {
     "blob1" = {
      name                   = "index.html"
