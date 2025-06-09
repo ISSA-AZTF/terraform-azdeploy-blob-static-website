@@ -63,7 +63,7 @@ Exemple de variable `blob_storage`
 ## Déploiement
 
 
-     git clone (https://github.com/ISSA-AZTF/terraform-azdeploy-blob-static-website.git)
+     git clone https://github.com/ISSA-AZTF/terraform-azdeploy-blob-static-website.git
 
      terraform init
      terraform plan 
