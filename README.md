@@ -60,7 +60,7 @@ Exemple de variable `blob_storage`
      source                 = "404.html"
     }
     }
-
+ ```
 ## Déploiement
 
 
